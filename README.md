@@ -32,3 +32,21 @@ For using a local GraphQL dashborad that you can reach at http://127.0.0.1:4000/
 Inside the online web application, you'll see on your left a label named __Schema__ when are stored the schemas of Node's app.
 In the local dashboard there is a lateral navbar with all schemas.
 
+## Query
+
+For doing a query you can test this code inside the query text area of GraphQL's dashboard:
+
+```
+query {
+ authors {
+    id
+    firstName
+    lastName
+ }
+}
+```
+
+In this case you'll fetch the authors infos.
+
+
+
